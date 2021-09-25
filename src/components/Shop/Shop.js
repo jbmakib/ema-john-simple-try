@@ -3,8 +3,9 @@ import "./Shop.css";
 
 const Shop = () => {
     return (
-        <div>
-            <h2>Hello from shop</h2>
+        <div className="shop-container">
+            <div className="product-container">PNC</div>
+            <div className="cart-container">PNC@</div>
         </div>
     );
 };
